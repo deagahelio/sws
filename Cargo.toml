@@ -1,0 +1,10 @@
+[package]
+name = "sws"
+version = "0.1.0"
+authors = ["deagahelio <16138291+deagahelio@users.noreply.github.com>"]
+
+[dependencies]
+tiny_http = "0.6.0"
+try-exit = "1.0.0"
+mime_guess = { git = "https://github.com/abonander/mime_guess", rev = "48d97bd" }
+ascii = "0.8.6"
